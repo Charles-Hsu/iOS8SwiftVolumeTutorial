@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C238D4A71A827E6E007F8A49 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C238D4A21A827E6E007F8A49 /* NextButton.png */; };
+		C238D4A81A827E6E007F8A49 /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C238D4A31A827E6E007F8A49 /* noArtworkImage.png */; };
+		C238D4A91A827E6E007F8A49 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C238D4A41A827E6E007F8A49 /* pauseButton.png */; };
+		C238D4AA1A827E6E007F8A49 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C238D4A51A827E6E007F8A49 /* playButton.png */; };
+		C238D4AB1A827E6E007F8A49 /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C238D4A61A827E6E007F8A49 /* PreviousButton.png */; };
 		C23F881C1A7E343500B80609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F881B1A7E343500B80609 /* AppDelegate.swift */; };
 		C23F881E1A7E343600B80609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F881D1A7E343600B80609 /* ViewController.swift */; };
 		C23F88211A7E343600B80609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23F881F1A7E343600B80609 /* Main.storyboard */; };
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C238D4A21A827E6E007F8A49 /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		C238D4A31A827E6E007F8A49 /* noArtworkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noArtworkImage.png; sourceTree = "<group>"; };
+		C238D4A41A827E6E007F8A49 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		C238D4A51A827E6E007F8A49 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		C238D4A61A827E6E007F8A49 /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
 		C23F88161A7E343500B80609 /* iOS8SwiftVolumeTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftVolumeTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23F881A1A7E343500B80609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C23F881B1A7E343500B80609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C238D4AC1A827E79007F8A49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C238D4A21A827E6E007F8A49 /* NextButton.png */,
+				C238D4A31A827E6E007F8A49 /* noArtworkImage.png */,
+				C238D4A41A827E6E007F8A49 /* pauseButton.png */,
+				C238D4A51A827E6E007F8A49 /* playButton.png */,
+				C238D4A61A827E6E007F8A49 /* PreviousButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		C23F880D1A7E343500B80609 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,7 @@
 		C23F88181A7E343500B80609 /* iOS8SwiftVolumeTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C238D4AC1A827E79007F8A49 /* Images */,
 				C23F883B1A7E367500B80609 /* Amorphis - My Enemy.mp3 */,
 				C23F881B1A7E343500B80609 /* AppDelegate.swift */,
 				C23F881D1A7E343600B80609 /* ViewController.swift */,
@@ -197,8 +220,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C238D4A91A827E6E007F8A49 /* pauseButton.png in Resources */,
 				C23F88211A7E343600B80609 /* Main.storyboard in Resources */,
+				C238D4A81A827E6E007F8A49 /* noArtworkImage.png in Resources */,
+				C238D4AA1A827E6E007F8A49 /* playButton.png in Resources */,
+				C238D4A71A827E6E007F8A49 /* NextButton.png in Resources */,
 				C23F883C1A7E367500B80609 /* Amorphis - My Enemy.mp3 in Resources */,
+				C238D4AB1A827E6E007F8A49 /* PreviousButton.png in Resources */,
 				C23F88261A7E343600B80609 /* LaunchScreen.xib in Resources */,
 				C23F88231A7E343600B80609 /* Images.xcassets in Resources */,
 			);

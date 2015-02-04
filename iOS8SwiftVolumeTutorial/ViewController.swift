@@ -14,7 +14,10 @@ class ViewController: UIViewController {
 
   var audioPlayer = AVAudioPlayer()
   
+  @IBOutlet weak var artworkImageView: UIImageView!
   @IBOutlet weak var volumeView: MPVolumeView!
+  
+  @IBOutlet weak var playPauseButton: UIButton!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -34,6 +37,12 @@ class ViewController: UIViewController {
     
     let iPod = MPMusicPlayerController()
     
+    setupVolumeView()
+    
+  }
+  
+  func setupVolumeView() {
+    volumeView.backgroundColor = UIColor.clearColor()
     volumeView.showsVolumeSlider = true
     volumeView.showsRouteButton = false
     
@@ -55,7 +64,6 @@ class ViewController: UIViewController {
     
     volumeView.setRouteButtonImage(thumbImageNormal, forState: .Normal)
     volumeView.setRouteButtonImage(thumbImageHighlighted, forState: .Highlighted)
-    
   }
 
   override func didReceiveMemoryWarning() {
@@ -63,7 +71,9 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  @IBAction func playSound(sender: AnyObject) {
+  @IBAction func pickMusic(sender: AnyObject) {
+  }
+  @IBAction func playOrPauseSound(sender: AnyObject) {
     
     NSLog("playSound")
     
